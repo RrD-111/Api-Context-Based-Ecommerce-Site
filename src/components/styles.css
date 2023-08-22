@@ -1,0 +1,191 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px; /* Add padding for spacing */
+  background-color: #553838; /* Add background color */
+  color: white; /* Add text color */
+}
+
+.header-title {
+  font-size: 40px; /* Larger font size for ShopperStop */
+  font-style: italic;
+  margin-left: 1px;
+}
+
+.header-title:hover{
+  color: #ff5722;
+  cursor: pointer;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 50px; /* Add space between navigation items */
+}
+
+.nav-item {
+  font-size: 20px; /* Font size for Home and Cart */
+}
+
+.nav-item:hover {
+  color: #ff5722; /* Change the color on hover to your desired color (e.g., orange) */
+}
+
+.logo {
+  width: 50px; /* Set the logo width as desired */
+  height: auto; /* Maintain aspect ratio */
+  cursor: pointer;
+  margin-right: 20px; /* Add margin to separate the logo and title */
+}
+
+/*----*/
+/* styles.css */
+
+/* ...previous styles... */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50%;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  flex-grow: 1;
+}
+
+
+
+
+/*.leftnav{
+  color: white;
+  padding: 5px 5px 2px 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  border: 1px solid ;
+}*/
+/* ----------------------- */
+
+.productContainer {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.products {
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.productDesc {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.add {
+  padding: 5px;
+}
+
+.remove {
+  background-color: grey;
+  color: white;
+}
+
+.Thanks{
+  background-image: url("https://media.istockphoto.com/id/1289828419/video/4k-confetti-party-popper-animation-with-alpha-channel-multi-coloured.jpg?s=640x640&k=20&c=n5HfqDTGPNhVQXLGMSN9XkMRO0_WHFZDaeEVNIKfLKk=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.Homee{
+  background-color: grey;
+
+}
+button{
+  background: #f0c14b;
+  border:1px solid;
+  
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+button:hover{
+  cursor:pointer;
+  background: #ff5722;
+}
+
+.hometitle{
+  font-style: oblique;
+}
+/*****/
+
+/* Cart.css */
+
+.cart-container {
+  text-align: center;
+}
+
+.cart-title {
+  font-size: 30px;
+}
+
+.cart-total {
+  font-size: 30px;
+}
+
+.productItem {
+  
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.quantityButtons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 60px;
+}
+
+.quantityButtons button {
+  font-size: 18px;
+  padding: 4px 10px;
+}
+/*-----*/
+/* styles.css */
+
+/* ...previous styles... */
+
+.carousel-container {
+  width: 60%; /* Set the desired width for the carousel container */
+  margin: 0 auto; /* Center the carousel horizontally */
+}
+
+.carousel-container:hover{
+  cursor: pointer;
+}
+
+.carousel-image {
+  width: 100%; /* Ensure the images take the full width of the container */
+  height: auto; /* Maintain the aspect ratio of the images */
+}
+
+
